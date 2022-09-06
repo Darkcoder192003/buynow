@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 600px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        
+    }
+    /* nav ul{
+        flex-direction: column;
+
+    }
+    nav ul li{
+        display: flex;
+    } */
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    nav ul li a:hover{
+        font-size: 16px;
+    }
+    nav .search{
+        width: 350px;
+        margin: auto;
+    }
+    nav .search input{
+        width: 350px;
+        margin-left: 00px;
+    }
+    .slider img{
+        height: 25vh;
+    }
+    
+    /* Kids-Section */
+    .kids-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .toy-car,.cricket-bat,.books,.laptops{
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+
+    /* Mens-section */
+    .mens-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .t-shirt,.jeans,.sunglasses,.shoes{
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    /* Womens-Section */
+    .womens-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .saree,.kurti,.women-jeans,.watch{
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    /* Mobile-Section */
+    .mobile-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .mi,.realme,.one-plus,.iphone{
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+}
+@media screen and (max-width: 1060px) and (min-width:600px){
+    .toy-car,.cricket-bat,.books,.laptops{
+        height: auto;
+        width: auto;
+        margin: 10px auto;
+    }
+    .toy-car img,.cricket-bat img,.books img,.laptops img{
+        height: 28vh;
+        width: 20vw;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .t-shirt,.jeans,.sunglasses,.shoes{
+        height: auto;
+        width: auto;
+        margin: 10px auto;
+    }
+    .t-shirt img,.jeans img,.sunglasses img,.shoes img{
+        height: 28vh;
+        width: 20vw;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .saree,.kurti,.women-jeans,.watch{
+        height: auto;
+        width: auto;
+        margin: 10px auto;
+    }
+    .saree img,.kurti img,.women-jeans img,.watch img{
+        height: 28vh;
+        width: 20vw;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .mi,.realme,.one-plus,.iphone{
+        height: auto;
+        width: auto;
+        margin: 10px auto;
+    }
+    .mi img,.realme img,.one-plus img,.iphone img{
+        height: 28vh;
+        width: 20vw;
+        text-align: center;
+        margin: 10px auto;
+    }
+}

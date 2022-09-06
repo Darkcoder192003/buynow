@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+    /* width: 100vw; */
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    list-style: none;
+}
+ ul li a{
+    text-decoration: none;
+    display: flex;
+    margin: 20px;
+    color: white;
+}
+ul li a:hover{
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.centre{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'BIZ UDPMincho', serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 7rem;
+    width: 13rem;
+    margin-bottom: 10px;
+}
+.search{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.search input{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 20px;
+    padding: 3px 15px;
+}
+.slider{
+    width: 90vw;
+    margin: 10px auto;
+}
+.slider img{
+    border-radius: 10px;
+    height: 20vw;
+    width: 90vw;
+}
+.container
+{
+   background-color: rgba(250, 235, 215, 0.534);
+}
+/* Kids-Section */
+
+.kids{
+    width: 88vw;
+    /* border: 2px solid black; */
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.233);
+    border-radius: 10px;
+}
+.kids h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.kids-section{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.kids-section img{
+    height: 200px;
+}
+.toy-car{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    /* height: 35vh; */
+    height: auto;
+    margin-bottom: 10px;
+}
+.cricket-bat{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.books{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.laptops{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* Mens-Section */
+
+.mens{
+    background-color: rgba(128, 128, 128, 0.233);
+    width: 88vw;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom:15px ;
+    border-radius: 10px;
+}
+.mens h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.mens-section{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.mens-section img{
+    height: 200px;
+}
+.t-shirt{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.jeans{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.sunglasses{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.shoes{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* Womens-section */
+
+.women{
+    background-color: rgba(128, 128, 128, 0.233);
+    width: 88vw;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom:15px ;
+    border-radius: 10px;
+}
+.women h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.womens-section{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.womens-section img{
+    height: 200px;
+}
+.saree{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.kurti{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.women-jeans{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.watch{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* Mobile-section */
+
+.mobile{
+    background-color: rgba(128, 128, 128, 0.233);
+    width: 88vw;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom:15px ;
+    border-radius: 10px;
+}
+.mobile h1{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.mobile-section{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+.mobile-section img{
+    height: 200px;
+}
+.mi{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.realme{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.one-plus{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.iphone{
+    width: 20vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Top-Brands */
+
+.brands{
+    width: 90vw;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.brands h1{
+    padding-bottom: 20px;
+}
+.brands img{
+    height: 20vh;
+    margin: 20px;
+}
